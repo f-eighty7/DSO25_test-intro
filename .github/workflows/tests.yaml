@@ -2,7 +2,7 @@ name: Run Unit test
 on:
   pull_request:
     branches:
-      - workflow-test
+      - main
 jobs:
   build:
     runs-on: ubuntu-latest
